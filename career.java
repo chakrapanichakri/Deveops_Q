@@ -14,6 +14,7 @@ c[i][j]=a[i][j]+b[i][j];    //use - for subtraction
 System.out.print(c[i][j]+" ");    
 }    
 System.out.println();//new line    
+  
 }
 #New changes made by giti developer2
  import java.lang.Math;   
@@ -29,4 +30,21 @@ System.out.println("4th Random Number: " + Math.random());
 }   
 }  
    
+}   
+#New changes made by chakrapani(developer1)
+ 
+public class ReverseNumberExample1   
+{  
+public static void main(String[] args)   
+{  
+int number = 987654, reverse = 0;  
+while(number != 0)   
+{  
+int remainder = number % 10;  
+reverse = reverse * 10 + remainder;  
+number = number/10;  
+}  
+System.out.println("The reverse of the given number is: " + reverse);  
+}  
+} 
 }}  
